@@ -4,7 +4,7 @@ import numpy as np
 from mathutils import Quaternion
 
 # Path for saving renders and text files
-save_path = r"D:\0_filesys\3_Library\Prj\CNN AntiDrone\DS_drone\Render\D2_GP"
+save_path = r"full_path_to_output_folder"
 
 if not os.path.exists(save_path):
     os.makedirs(save_path)
